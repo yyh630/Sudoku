@@ -1,0 +1,33 @@
+# Build
+make clean
+make 
+make test
+
+# Add a DEMO (single file demo) 
+Refer to src/DEMO
+
+# Add a LIB (multi files LIB)
+Refer to src/MayFlower.
+Then add APPs in src/APP, refer to word.cpp
+
+# How to name File/Class/Function/Variable
+## File
+c style		:	timeDate.cpp
+cpp style	:	Article.cpp
+
+## Class/Function/Variable
+class Article {
+	const string article;
+protected:
+	_useBySelf() {
+	}
+public:
+	addMoreInfo() {
+	}
+};
+
+
+# Log
+## 03/30/2018 learn how to write project, split the function and make the structure more readable
+
+## 04/01/2018 follow the logic of the check_row, check_col and check_boxes to do the check_diag
