@@ -90,9 +90,7 @@ bool check_sudoku(char sudoku[SUDOKU_SIZE][SUDOKU_SIZE]) {
 }
 
 bool check_diag_sudoku(char sudoku[SUDOKU_SIZE][SUDOKU_SIZE]){	
-	if(check_rows(sudoku) == false) return false;
-	if(check_cols(sudoku) == false) return false;
-	if(check_boxes(sudoku) == false) return false;
+	check_sudoku(sudoku);
 	if(check_diag(sudoku) == false) return false;
 	return true;
 }
