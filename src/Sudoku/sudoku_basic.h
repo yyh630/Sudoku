@@ -7,6 +7,6 @@ void print_sudoku(char sudoku[SUDOKU_SIZE][SUDOKU_SIZE]);
 //sudoku only contain character '0'~'9'
 bool check_sudoku(char sudoku[SUDOKU_SIZE][SUDOKU_SIZE]);
 
-//using to check the diag in the sudoku matrix
+//using to check whether the sudoku is a  diag sudoku matrix
 bool check_diag_sudoku(char sudoku[SUDOKU_SIZE][SUDOKU_SIZE]);
 
